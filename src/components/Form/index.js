@@ -2,11 +2,25 @@ import React from 'react';
 import { Form, Input, Button, Select } from 'antd';
 
 const { Option } = Select;
+// const { fs, path } = require('filer');
 
 function UserInfoForm() {
   const [form] = Form.useForm();
-  const handleSubmit = (values) => {
 
+  const handleSubmit = (values, e) => {
+    // e.preventDefault();
+    // console.log('Values received:', values);
+    const user = values;
+    // local storage data
+    localStorage.setItem('data', user);
+    // download a file form submit
+    const fileData = JSON.stringify(user);
+    const blob = new Blob([fileData], { type: "text/plain" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.download = `data.json`;
+    link.href = url;
+    link.click();
   }
 
   const handleClearForm = (e) => {
@@ -54,7 +68,7 @@ function UserInfoForm() {
       <Form.Item
         label="Email"
         name="email"
-        rules={[{ type: 'email', message: 'Please input your email!', },]}
+        rules={[{ type: 'email', required: true, message: 'Please input your email!', },]}
       >
         <Input />
       </Form.Item>
