@@ -1,12 +1,14 @@
 import './App.css';
 import Form from './components/Form/index.js';
+import { Card } from 'antd';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Main Page
-        <Form />
+        <Card title="User Information">
+          <Form />
+        </Card>
       </header>
     </div>
   );
