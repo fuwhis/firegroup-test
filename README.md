@@ -6,7 +6,12 @@
 
 # Firegroup Technology Technical Test
 
+This repo consists of solutions the technical exam.\
+
 This project was built with [Create React App](https://github.com/facebook/create-react-app). And used [Ant Design UI](https://ant.design/components) on it.
+
+[![GitHub last commit](https://img.shields.io/github/last-commit/fuwhis/firegroup-test)](https://github.com/fuwhis/firegroup-test/commits/master)
+[![GitHub repo size](https://img.shields.io/github/repo-size/fuwhis/firegroup-test)](https://github.com/fuwhis/firegroup-test/archive/master.zip)
 
 ## Structure of Solution
 
