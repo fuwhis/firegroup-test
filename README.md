@@ -8,7 +8,7 @@
 
 This project was built with [Create React App](https://github.com/facebook/create-react-app). And used [Ant Design UI](https://ant.design/components) on it.
 
-## Structure of problems
+## Structure of Solution
 
 For each of part on the test:
 
