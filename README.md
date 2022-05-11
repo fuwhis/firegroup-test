@@ -20,7 +20,9 @@ For each of part on the test:
 
 - Part II: User Form
   You can run `npm run start` on this cloned project to get the output.
-  I just can render a snapshot of form UI on this repo.
+  I just can render a screenshot of form UI on this repo.
+
+  ![image](https://prnt.sc/UYZ6-OYVkm51)
 
 ## Available Scripts
 
