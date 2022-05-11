@@ -3,27 +3,22 @@
  */
 
 var findFrequent = (arr) => {
-  // create maxAppearance array to compare the appearance of each iterated elements from array
-  let maxAppearance = [0, 0];
-  // count is used to count the number of occurrences of the element
-  let count = 1;
-  // reverse iterate array
-  for (let i = arr.length - 1; i > 0; i--) {
-    // if it has the same value element
-    // increase the count
-    if (arr[i] === arr[i - 1]) {
-      ++count;
-    } else {
-      if (maxAppearance[1] < count) {
-        maxAppearance[0] = arr[i];
-        maxAppearance[1] = count;
+  var count = 1;
+  var tmp = 0;
+  var item;
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i; arr.length; j++) {
+      if (arr[i] === arr[j])
+        tmp++;
+      if (count < tmp) {
+        count = tmp;
+        item = arr[i];
       }
-      count = 1;
     }
+    tmp = 0;
   }
-  console.log(maxAppearance[0]);
+  console.log(item);
 }
-
-findFrequent([3, 7, 3]);
-findFrequent([null, "hello", true, null]);
-findFrequent([false, "up", "down", "left", "right", true, false]);
+findFrequent([3, 7, 3, 7, 8]);
+//findFrequent([null, "hello", true, null]);
+//findFrequent([false, "up", "down", "left", "right", true, false]);
