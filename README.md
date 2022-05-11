@@ -22,7 +22,8 @@ For each of part on the test:
   You can run `npm run start` on this cloned project to get the output.
   I just can render a screenshot of form UI on this repo.
 
-  ![image](https://prnt.sc/UYZ6-OYVkm51)
+  ![Screenshot](https://user-images.githubusercontent.com/29690027/167748463-97a7d851-29c1-41a5-8d97-b60474a601c4.png)
+
 
 ## Available Scripts
 
