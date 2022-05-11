@@ -9,6 +9,8 @@ var findFrequent = (arr) => {
   let count = 1;
   // reverse iterate array
   for (let i = arr.length - 1; i > 0; i--) {
+    // if it has the same value element
+    // increase the count
     if (arr[i] === arr[i - 1]) {
       ++count;
     } else {
