@@ -6,7 +6,7 @@
 
 # Firegroup Technology Technical Test
 
-This repo consists of solutions the technical exam.\
+This repo consists of solutions the technical exam.
 
 This project was built with [Create React App](https://github.com/facebook/create-react-app). And used [Ant Design UI](https://ant.design/components) on it.
 
@@ -17,13 +17,13 @@ This project was built with [Create React App](https://github.com/facebook/creat
 
 For each of part on the test:
 
-- Part I: Algorithms \
+- **Part I: Algorithms** \
   This problem just be run output on console for each test case:
 
   - [Problem A](https://github.com/fuwhis/firegroup-test/blob/main/algorithm/questionA/index.js)
   - [Problem B](https://github.com/fuwhis/firegroup-test/blob/main/algorithm/questionB/index.js)
 
-- Part II: User Form \
+- **Part II: User Form** \
   You can run `npm run start` on this cloned project to get the output.\
   I just can render a screenshot of form UI on this repo.
 
