@@ -1,4 +1,5 @@
-import './App.css';
+import './App.css'
+import React from 'react';
 import Form from './components/Form/index.js';
 import { Card } from 'antd';
 
