@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/fuwhis/firegroup-test">
-        <img alt="FireGroup Technology" src="https://firegroup.vn/wp-content/themes/fireapps/images/logo_fireapps.png" >
+        <img alt="FireGroup Technology" src="[https://firegroup.vn/wp-content/themes/fireapps/images/logo_fireapps.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmarketingworks.vn%2Fcong-ty-tuyen-dung%2Ffiregroup-technology-1669617592.html&psig=AOvVaw39oM6A2lI1v8rWjoAb9lXI&ust=1715358706027000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMD3jKX_gIYDFQAAAAAdAAAAABAE)" >
     </a>
 </p>
 
